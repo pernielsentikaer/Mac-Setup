@@ -266,6 +266,8 @@ _A word about Alfred. Is is an incredible powerful app, and an incredibly expens
 * View Image: Restore Google View Image button https://addons.mozilla.org/en-US/firefox/addon/view-image/ ⭐️
 * Cookies.txt: Export cookies https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/ ⭐️
 * Dark Reader: Change website to dark theme https://addons.mozilla.org/en-US/firefox/addon/darkreader/
+
+### Chrome
 * Bypass Paywall: Access paid webpages online for free https://github.com/iamadamdev/bypass-paywalls-chrome ⭐️
 
 ### Brave
@@ -306,7 +308,7 @@ Restart computer
 
 ### Restore Finder as default file viewer
 ```
-defaults delete -g NSFileViewer`
+defaults delete -g NSFileViewer
 defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add '{LSHandlerContentType="public.folder";LSHandlerRoleAll="com.apple.finder";}'
 ```
 Restart computer
